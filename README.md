@@ -37,5 +37,6 @@ reqmanager cleanup --max-backups 5 [--backup-dir <backup_directory>]
 ```
 
 # Clean up backups
+```bash
 reqmanager cleanup --max-backups 5
 ```
