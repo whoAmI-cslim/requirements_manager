@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "requirements_manager"
+version = "0.1.0"
+authors = [
+    { name = "Clyde Hunter", email = "clyde.hunter1984@gmail.com" },
+]
+description = "A tool to manage Python requirements files and their backups"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "click>=8.0.0",
+]
+
+[project.scripts]
+reqmanager = "requirements_manager.cli:cli"
