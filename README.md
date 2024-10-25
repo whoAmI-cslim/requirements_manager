@@ -36,7 +36,7 @@ reqmanager update [--source <source_file>] [--destination <destination_file>]
 reqmanager cleanup --max-backups 5 [--backup-dir <backup_directory>]
 ```
 
-# Clean up backups
+## Clean up backups
 ```bash
 reqmanager cleanup --max-backups 5
 ```
